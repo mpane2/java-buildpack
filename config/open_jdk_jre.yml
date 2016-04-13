@@ -16,7 +16,7 @@
 # Configuration for JRE repositories keyed by vendor
 # If Java 7 is required, permgen will be used instead of metaspace. Please see the documentation for more detail.
 ---
-jre:
+jdk:
   version: 1.8.0_+
   repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
 memory_calculator:
